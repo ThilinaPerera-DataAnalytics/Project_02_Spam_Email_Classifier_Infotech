@@ -9,10 +9,20 @@ This project meticulously explores two data balancing strategies: **Random Downs
 - 🔎 **Exploratory Data Analysis (EDA):** Clear visualization of spam vs. ham email distributions.  
 - 🧹 **Data Preprocessing:** Text cleaning and **TF-IDF vectorization** using `scikit-learn`.  
 - ⚖️ **Class Balancing Strategies:**  
-  - 📉 **Random Downsampling** – reducing majority class samples to achieve balance.  
-  - 🔬 **SMOTE** – generating synthetic minority class samples for balance.  
+  - 📉 **Random Downsampling**
+    * Reducing Majority class samples to achieve balance.
+    *  Matched with Minor class, 1368 per each.
+  - 🔬 **SMOTE**
+    * Generating synthetic Minority class samples for balance.
+    *  Synthetically geberated and matched with Major class 4360 per each
 - 🤖 **Machine Learning Model:** Logistic Regression trained on TF-IDF features.  
-- 📊 **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC, and Confusion Matrix visualizations.  
+- 📊 **Evaluation Metrics:** Accuracy, Precision, Recall, F1-score, ROC-AUC, and Confusion Matrix visualizations.
+
+---
+
+![Graph](4_visualizations\class_imbalance.png)
+*Class Imbalance between Spam & Not-Spam categories*
+
 ---
 
 ## 🛠️ Tech Stack
@@ -62,9 +72,6 @@ Project_02_Spam_Email_Classifier_Infotech
 ---
 
 ## 📈 [Results Snapshot](4_visualizations)
-
-- **Downsampling:** Moderate accuracy but risk of underfitting.  
-- **SMOTE:** Superior recall and F1-score, ideal for catching spam without missing too many.  
 
 📊 Detailed confusion matrices, classification reports, and performance tables are in the [notebooks](2_notebooks) & [visualizations](4_visualizations)
 
