@@ -104,7 +104,9 @@ Project_02_Spam_Email_Classifier_Infotech
 ### 👨‍💻 Author - [Thilina Perera](https://github.com/ThilinaPerera-DataAnalytics)
     📌 Data Analytics Enthusiast | Machine Learning, Deep Learning, & NLP Explorer
     
-### 🔗 [LinkedIn Profile](https://www.linkedin.com/in/thilina-perera-148aa934/) 
+### 🔗 [LinkedIn Profile](https://www.linkedin.com/in/thilina-perera-148aa934/)
+
+### 💻 [GitHub](https://github.com/ThilinaPerera-DataAnalytics) 
 
 ### 🏆 License
     This project is licensed under the MIT License – free to use and extend.
