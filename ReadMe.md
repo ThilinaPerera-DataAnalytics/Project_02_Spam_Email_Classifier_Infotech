@@ -22,7 +22,7 @@ This project meticulously explores two data balancing strategies: **Random Downs
 
 ![alt text](image.png)
 ```
-*Class Imbalance between Spam & Not-Spam categories*
+Class Imbalance between Spam & Not-Spam categories
 ```
 ---
 
